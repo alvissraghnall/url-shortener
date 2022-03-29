@@ -1,0 +1,37 @@
+{
+  "name": "url-short",
+  "version": "1.0.0",
+  "description": "A simple url shortener built with Express & pg",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon -r dotenv/config src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alvissraghnall/url-shortener.git"
+  },
+  "author": "Âlviss Raghnall <isiomastewart@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvissraghnall/url-shortener/issues"
+  },
+  "homepage": "https://github.com/alvissraghnall/url-shortener#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "env-var": "^7.1.1",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.23",
+    "@types/pg": "^8.6.5",
+    "@types/pg-pool": "^2.0.3",
+    "nodemon": "^2.0.15",
+    "rollup": "^2.68.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.4.3"
+  }
+}
